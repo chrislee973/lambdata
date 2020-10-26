@@ -10,7 +10,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdata-christopherlee973", # Replace with your own username
-    version="0.0.1", # First version - change in subsequent versions
+    version="0.0.2", # First version - change in subsequent versions
     author="chrislee973", # Replace with your own username
     description="A collection of data science functions", # Short description
     long_description=long_description, # Long description - from README
