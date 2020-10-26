@@ -1,2 +1,2 @@
 # lambdata
-Package containing common Data Science functions. 
+Common Data Science utility functions.
