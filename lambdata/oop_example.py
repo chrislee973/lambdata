@@ -60,25 +60,8 @@ class MyDataFrame(pd.DataFrame):
     def num_cells(self): 
         return self.shape[0] * self.shape[1]
 
-### NLP HELPER FUNCTIONS ###
 
-def tokens(text, lower = True, remove_stopwords = False): 
-    """
-    Returns a list of all the unique lowercased tokens in a text. If lower = True, they will be lowercased. 
-    If remove_stopwords = True, stopwords will be removed from the list.
-    
-    """
 
-    #tokenized list of words
-    tokens = set(re.findall(r'\w+', self.text.lower()))
-
-    if remove_stopwords:
-        #filter out stopwords
-        tokens = [token for token in tokens if token not in stopwords.words('english')] 
-        return tokens
-        
-    else: 
-        return tokens
 
 
 
